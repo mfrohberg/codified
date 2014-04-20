@@ -11,7 +11,16 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
-
+gem 'mongoid', github: 'mongoid/mongoid'
+gem "mongo_session_store-rails4"
+gem 'figaro'
+gem "omniauth-github"
+gem 'devise'
+gem 'pundit'
+gem 'better_errors'
+gem 'quiet_assets'
+gem 'rails_layout'
+gem 'bootstrap-sass'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
