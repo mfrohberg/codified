@@ -40,5 +40,5 @@ class User
   field :last_name,         type: String
   field :status,            type: String, default: "User"
   field :num_posts,         type: Integer, default: 0
-
+  has_many :posts
 end
